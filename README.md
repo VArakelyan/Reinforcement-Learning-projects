@@ -1,43 +1,44 @@
-Reinforcement Learning Projects
+# **Reinforcement Learning Projects**
 
-This repository showcases a collection of Reinforcement Learning (RL) projects developed as part of the Reinforcement Learning course at the National Polytechnic University of Armenia (NPUA). The projects focus on implementing, analyzing, and experimenting with key RL algorithms, emphasizing both theoretical understanding and practical applications.
+This repository contains a collection of **Reinforcement Learning (RL) projects** developed as part of the **Reinforcement Learning course** at the **National Polytechnic University of Armenia (NPUA)**.  
+Each project explores different RL algorithms and concepts, balancing **theoretical insights** with **practical implementation**.
 
-Inspired by Sutton and Barto’s Reinforcement Learning: An Introduction, these projects cover a range of fundamental RL concepts, including policy learning, value estimation, and exploration-exploitation trade-offs.
+Inspired by **Sutton and Barto’s Reinforcement Learning: An Introduction**, these projects cover key areas such as **policy learning, value estimation, and exploration-exploitation trade-offs**.
 
-Projects Overview
+---
 
-📌 Project 1: Tic-Tac-Toe with Reinforcement Learning
-Developed a Tic-Tac-Toe environment.
-Designed a Reinforcement Learning agent that learns optimal strategies.
-Enabled users to play against the trained AI, showcasing its learning progress.
-📌 Project 2: Multi-Armed Bandit Problem
-Explored the exploration-exploitation trade-off in the multi-armed bandit problem.
-Implemented and compared various strategies:
-ε-greedy algorithm
-Upper Confidence Bound (UCB)
-Gradient bandit algorithms
-Analyzed the impact of Optimistic Initial Values vs. Realistic Initial Values.
-Project Structure
+## **📌 Projects Overview**
 
-Each project directory contains:
-📂 code/ - Source code for the implementation.
-📂 results/ - Experimental results (plots, tables, and analysis).
-📄 README.md - Project-specific documentation, including:
+### **Project 1: Tic-Tac-Toe with Reinforcement Learning**
+- Developed a **Tic-Tac-Toe** game environment.
+- Implemented a **Reinforcement Learning agent** capable of learning optimal strategies.
+- Enabled users to play against the trained AI to observe its learning progress.
 
-Setup instructions
-Methodology
-Key findings
-🚀 Getting Started
+### **Project 2: Multi-Armed Bandit Problem**
+- Investigated the **exploration-exploitation trade-off** in the **multi-armed bandit problem**.
+- Implemented and compared strategies:
+  - **ε-greedy algorithm**
+  - **Upper Confidence Bound (UCB)**
+  - **Gradient bandit algorithms**
+- Analyzed the impact of **Optimistic Initial Values vs. Realistic Initial Values**.
 
-Clone the Repository
+---
+
+## **📂 Project Structure**
+Each project directory contains:  
+
+📁 **`code/`** - Source code for implementation.  
+📁 **`results/`** - Experimental results (plots, tables, and analysis).  
+📄 **`README.md`** - Project-specific documentation, including:  
+  - Setup instructions  
+  - Methodology  
+  - Key findings  
+
+---
+
+## **🚀 Getting Started**
+
+### **Clone the Repository**
+```bash
 git clone https://github.com/RuzGhandilian/Reinforcement_Learning_NPUA
 cd Reinforcement_Learning_NPUA
-Dependencies
-Ensure you have the required dependencies installed before running the projects.
-
-pip install -r requirements.txt
-🔗 Resources & References
-
-Sutton & Barto - Reinforcement Learning: An Introduction
-RL Community Resources & Papers
-This repository will continue to expand with new RL projects, experiments, and insights. Contributions and discussions are welcome! 🚀
