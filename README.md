@@ -13,6 +13,7 @@ Inspired by **Sutton and Barto’s Reinforcement Learning: An Introduction**, th
 - Developed a **Tic-Tac-Toe** game environment.
 - Implemented a **Reinforcement Learning agent** capable of learning optimal strategies.
 - Enabled users to play against the trained AI to observe its learning progress.
+- 📂 [Project Directory](https://github.com/VArakelyan/Reinforcement-Learning-projects/tree/main/tic-tac-toe)
 
 ### **Project 2: Multi-Armed Bandit Problem**
 - Investigated the **exploration-exploitation trade-off** in the **multi-armed bandit problem**.
@@ -21,6 +22,7 @@ Inspired by **Sutton and Barto’s Reinforcement Learning: An Introduction**, th
   - **Upper Confidence Bound (UCB)**
   - **Gradient bandit algorithms**
 - Analyzed the impact of **Optimistic Initial Values vs. Realistic Initial Values**.
+- 📂 [Project Directory](https://github.com/VArakelyan/Reinforcement-Learning-projects/tree/main/ten-armed-testbed)
 
 ---
 
@@ -40,5 +42,5 @@ Each project directory contains:
 
 ### **Clone the Repository**
 ```bash
-git clone https://github.com/RuzGhandilian/Reinforcement_Learning_NPUA
-cd Reinforcement_Learning_NPUA
+git clone https://github.com/VArakelyan/Reinforcement-Learning-projects.git
+cd Reinforcement-Learning-projects
