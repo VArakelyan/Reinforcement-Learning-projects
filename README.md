@@ -13,7 +13,7 @@ Inspired by **Sutton and Barto’s Reinforcement Learning: An Introduction**, th
 - Developed a **Tic-Tac-Toe** game environment.
 - Implemented a **Reinforcement Learning agent** capable of learning optimal strategies.
 - Enabled users to play against the trained AI to observe its learning progress.
-- 📂 [Project Directory](https://github.com/VArakelyan/Reinforcement-Learning-projects/tree/main/tic-tac-toe)
+
 
 ### **Project 2: Multi-Armed Bandit Problem**
 - Investigated the **exploration-exploitation trade-off** in the **multi-armed bandit problem**.
@@ -22,7 +22,17 @@ Inspired by **Sutton and Barto’s Reinforcement Learning: An Introduction**, th
   - **Upper Confidence Bound (UCB)**
   - **Gradient bandit algorithms**
 - Analyzed the impact of **Optimistic Initial Values vs. Realistic Initial Values**.
-- 📂 [Project Directory](https://github.com/VArakelyan/Reinforcement-Learning-projects/tree/main/ten-armed-testbed)
+
+### **Project 3: Markov Decision Process (MDP) in Grid-World**
+- Implementation of **policy evaluation** and **value iteration** for a **5×5 grid-world**.
+- Visualization of **value function convergence** under random and optimal policies.
+- Demonstration of **Bellman equations** in finite MDPs.
+
+
+### **Project 4: Dynamic Programming (DP) in Grid-World**
+- **Policy evaluation and improvement** in a **4×4 grid-world** with terminal states.
+- Comparison of **in-place vs. out-of-place** dynamic programming updates.
+- Theoretical analysis of **policy improvement guarantees**.
 
 ---
 
