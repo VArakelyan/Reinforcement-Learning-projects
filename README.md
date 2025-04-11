@@ -34,6 +34,15 @@ Inspired by **Sutton and Barto’s Reinforcement Learning: An Introduction**, th
 - Comparison of **in-place vs. out-of-place** dynamic programming updates.
 - Theoretical analysis of **policy improvement guarantees**.
 
+### **Project 5: Gambler’s Problem – Value Iteration Approach**
+
+- Developed a simulation of the Gambler’s Problem as a finite Markov Decision Process (MDP).
+- Implemented the **Value Iteration** algorithm to compute the optimal policy.
+- Explored how different **stake choices** affect the agent’s probability of reaching the goal.
+- Demonstrated the role of the **Bellman Optimality Equation** in solving MDPs.
+- Visualized convergence of the value function and policy.
+
+
 ---
 
 ## **📂 Project Structure**
