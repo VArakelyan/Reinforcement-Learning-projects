@@ -1,53 +1,52 @@
-# **Reinforcement Learning Projects**
+# Reinforcement Learning Projects
 
-This repository contains a collection of **Reinforcement Learning (RL) projects** developed as part of the **Reinforcement Learning course** at the **National Polytechnic University of Armenia (NPUA)**.  
-Each project explores different RL algorithms and concepts, balancing **theoretical insights** with **practical implementation**.
+This repository contains a collection of Reinforcement Learning (RL) projects developed as part of the Reinforcement Learning course at the National Polytechnic University of Armenia (NPUA).  
+Each project explores different RL algorithms and concepts, balancing theoretical insights with practical implementation.
 
-Inspired by **Sutton and Barto’s Reinforcement Learning: An Introduction**, these projects cover key areas such as **policy learning, value estimation, and exploration-exploitation trade-offs**.
+Inspired by Sutton and Barto’s *Reinforcement Learning: An Introduction*, these projects cover key areas such as policy learning, value estimation, and exploration-exploitation trade-offs.
 
 ---
 
-## **Projects Overview**
+## Projects Overview
 
-### **Project 1: Tic-Tac-Toe with Reinforcement Learning**
-- Developed a **Tic-Tac-Toe** game environment.
-- Implemented a **Reinforcement Learning agent** capable of learning optimal strategies.
+### Project 1: Tic-Tac-Toe with Reinforcement Learning
+- Developed a Tic-Tac-Toe game environment.
+- Implemented a Reinforcement Learning agent capable of learning optimal strategies.
 - Enabled users to play against the trained AI to observe its learning progress.
 
-
-### **Project 2: Multi-Armed Bandit Problem**
-- Investigated the **exploration-exploitation trade-off** in the **multi-armed bandit problem**.
+### Project 2: Multi-Armed Bandit Problem
+- Investigated the exploration-exploitation trade-off in the multi-armed bandit setting.
 - Implemented and compared strategies:
-  - **ε-greedy algorithm**
-  - **Upper Confidence Bound (UCB)**
-  - **Gradient bandit algorithms**
-- Analyzed the impact of **Optimistic Initial Values vs. Realistic Initial Values**.
+  - ε-greedy algorithm  
+  - Upper Confidence Bound (UCB)  
+  - Gradient bandit algorithms
+- Analyzed the impact of optimistic vs. realistic initial values.
 
-### **Project 3: Markov Decision Process (MDP) in Grid-World**
-- Implementation of **policy evaluation** and **value iteration** for a **5×5 grid-world**.
-- Visualization of **value function convergence** under random and optimal policies.
-- Demonstration of **Bellman equations** in finite MDPs.
+### Project 3: Markov Decision Process (MDP) in Grid-World
+- Implemented policy evaluation and value iteration for a 5×5 grid-world.
+- Visualized value function convergence under random and optimal policies.
+- Demonstrated Bellman equations in finite MDPs.
 
+### Project 4: Dynamic Programming (DP) in Grid-World
+- Performed policy evaluation and improvement in a 4×4 grid-world with terminal states.
+- Compared in-place vs. out-of-place dynamic programming updates.
+- Analyzed theoretical guarantees of policy improvement.
 
-### **Project 4: Dynamic Programming (DP) in Grid-World**
-- **Policy evaluation and improvement** in a **4×4 grid-world** with terminal states.
-- Comparison of **in-place vs. out-of-place** dynamic programming updates.
-- Theoretical analysis of **policy improvement guarantees**.
+### Project 5: Gambler’s Problem – Value Iteration Approach
+- Simulated the Gambler’s Problem as a finite Markov Decision Process (MDP).
+- Applied the Value Iteration algorithm to compute the optimal policy.
+- Explored how stake sizing impacts the probability of reaching the goal.
+- Demonstrated use of the Bellman Optimality Equation.
+- Visualized convergence of value function and policy.
 
-### **Project 5: Gambler’s Problem – Value Iteration Approach**
-
-- Developed a simulation of the Gambler’s Problem as a finite Markov Decision Process (MDP).
-- Implemented the **Value Iteration** algorithm to compute the optimal policy.
-- Explored how different **stake choices** affect the agent’s probability of reaching the goal.
-- Demonstrated the role of the **Bellman Optimality Equation** in solving MDPs.
-- Visualized convergence of the value function and policy.
-
+### Project 6: Blackjack — Monte Carlo Methods
+- Reproduced the episodic Blackjack example from Sutton & Barto (Chapter 5).
+- Implemented three Monte Carlo-based methods:
+  - Exploring Starts (MC-ES)  
+  - On-policy control with ε-greedy exploration  
+  - Off-policy prediction via importance sampling
+- Used empirical return averaging to estimate action-value functions.
+- Visualized optimal state-value functions and learned policies.
+- Demonstrated the practical differences between ordinary and weighted importance sampling in off-policy evaluation.
 
 ---
-
-##  Getting Started
-
-### **Clone the Repository**
-```bash
-git clone https://github.com/VArakelyan/Reinforcement-Learning-projects.git
-cd Reinforcement-Learning-projects
