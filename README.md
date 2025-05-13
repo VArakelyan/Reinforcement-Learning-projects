@@ -7,7 +7,7 @@ Inspired by **Sutton and Barto’s Reinforcement Learning: An Introduction**, th
 
 ---
 
-## **📌 Projects Overview**
+## **Projects Overview**
 
 ### **Project 1: Tic-Tac-Toe with Reinforcement Learning**
 - Developed a **Tic-Tac-Toe** game environment.
@@ -45,19 +45,7 @@ Inspired by **Sutton and Barto’s Reinforcement Learning: An Introduction**, th
 
 ---
 
-## **📂 Project Structure**
-Each project directory contains:  
-
-📁 **`code/`** - Source code for implementation.  
-📁 **`results/`** - Experimental results (plots, tables, and analysis).  
-📄 **`README.md`** - Project-specific documentation, including:  
-  - Setup instructions  
-  - Methodology  
-  - Key findings  
-
----
-
-## **🚀 Getting Started**
+##  Getting Started
 
 ### **Clone the Repository**
 ```bash
