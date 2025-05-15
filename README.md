@@ -49,4 +49,30 @@ Inspired by Sutton and Barto’s *Reinforcement Learning: An Introduction*, thes
 - Visualized optimal state-value functions and learned policies.
 - Demonstrated the practical differences between ordinary and weighted importance sampling in off-policy evaluation.
 
+### Project 7: Random Walk – TD(0) Value Estimation
+- Re-created the 5-state random-walk example (Sutton & Barto, Ex. 6.2).
+- Used one-step TD(0) with a constant step-size α to learn V(s).
+- Logged RMSE versus the true values; plotted learning curves.
+
+### Project 8: Windy Gridworld – ε-Greedy Sarsa
+- Solved the 7 × 10 Windy Gridworld control task (Ex. 6.5).
+- Implemented on-policy one-step Sarsa with ε-greedy exploration.
+- Supports king-moves and stochastic wind; tracks steps-per-episode.
+
+### Project 9: Infinite Variance – Off-Policy Monte-Carlo Evaluation
+- Replicated the infinite-variance demo (Ex. 5.5) with a 7-state walk.
+- Compared ordinary importance sampling vs. weighted IS for V(π).
+- Showed how ordinary IS blows up while weighted IS converges smoothly.
+
+### Project 10: Cliff Walking – SARSA, Expected SARSA & Q-Learning
+- Implemented the 4 × 12 Cliff-Walking grid (Ex. 6.6).
+- Ran three TD-control algorithms (SARSA, Expected SARSA, Q-Learning).
+- Logged average return & steps per episode; visualised final greedy policies.
+
 ---
+## Clone 
+
+```console
+$ git clone https://github.com/VArakelyan/Reinforcement-Learning-projects.git
+$ cd Reinforcement-Learning-projects
+
