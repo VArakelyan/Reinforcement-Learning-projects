@@ -1,4 +1,4 @@
-### **Project 6: Infinite Variance – Off-Policy Monte-Carlo Evaluation**
+### **Project 7: Infinite Variance – Off-Policy Monte-Carlo Evaluation**
 
 - **Objective:** Replicate Example 5.5 from Sutton & Barto (RL, 2nd ed.) to show that ordinary importance-sampling (IS) in off-policy Monte-Carlo can yield *infinite variance*.
 - **Environment:** Seven-state random walk; episodes are generated under a behaviour policy that moves left with probability *p*.
