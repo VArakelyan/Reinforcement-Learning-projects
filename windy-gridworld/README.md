@@ -1,4 +1,4 @@
-### **Project 5: Windy Gridworld – ε-Greedy Sarsa**
+### **Project 9: Windy Gridworld – ε-Greedy Sarsa**
 
 - **Objective:** Solve the Windy Gridworld control problem  using on-policy one-step **Sarsa** with ε-greedy exploration.
 
