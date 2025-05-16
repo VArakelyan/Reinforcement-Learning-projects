@@ -3,7 +3,7 @@
 This repository contains a collection of Reinforcement Learning (RL) projects developed as part of the Reinforcement Learning course at the National Polytechnic University of Armenia (NPUA).  
 Each project explores different RL algorithms and concepts, balancing theoretical insights with practical implementation.
 
-Inspired by Sutton and Barto’s *Reinforcement Learning: An Introduction*, these projects cover key areas such as policy learning, value estimation, and exploration-exploitation trade-offs.
+Inspired by Sutton and Barto’s *Reinforcement Learning: An Introduction*.
 
 ---
 
