@@ -69,6 +69,20 @@ Inspired by Sutton and Barto’s *Reinforcement Learning: An Introduction*.
 - Ran three TD-control algorithms (SARSA, Expected SARSA, Q-Learning).
 - Logged average return & steps per episode; visualised final greedy policies.
 
+### Project 11: n-step TD Methods on the Random Walk
+Implemented n-step Temporal-Difference (TD) methods for state-value prediction.
+Conducted experiments varying step-size (α) and number of steps (n) to analyze learning performance.
+Evaluated performance using Root Mean Squared (RMS) error over multiple runs and episodes.
+Replicated and validated the results presented in Figure 7.2 of the textbook.
+
+### Project 12: Comparison of Trajectory Sampling Methods
+
+Compared uniform and on-policy trajectory sampling methods in randomly generated, undiscounted episodic tasks.
+Implemented task generation with up to 10,000 states, two actions per state, and varying branching factors (b = 1, 3, 10).
+Simulated transitions with probabilistic episode termination and Gaussian-distributed rewards.
+Evaluated policy quality by the true value of the start state under the current greedy policy.
+Demonstrated that on-policy sampling performs better initially, while uniform sampling achieves better long-term planning performance.
+
 ---
 ## Clone 
 
