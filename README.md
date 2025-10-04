@@ -91,6 +91,15 @@ Compared planning performance across agents with 0, 5, and 50 planning steps.
 Tested adaptability in dynamic environments including blocking and shortcut mazes.
 Demonstrated that Dyna-Q+ and Prioritized Sweeping achieve faster convergence and better exploration efficiency.
 
+### Project 14: Expected vs. Sample Updates in Planning
+
+Investigated computational trade-offs between expected and sample updates in model-based reinforcement learning.
+Implemented experiments replicating Figure 8.7 from Sutton and Barto’s textbook.
+Compared efficiency across branching factors of 2, 10, 100, and 1000.
+Measured RMS error reduction versus computational cost under equal time budgets.
+Demonstrated that sample updates yield faster and more efficient error reduction, especially in environments with large branching factors.
+
+
 ---
 ## Clone 
 
