@@ -83,6 +83,14 @@ Simulated transitions with probabilistic episode termination and Gaussian-distri
 Evaluated policy quality by the true value of the start state under the current greedy policy.
 Demonstrated that on-policy sampling performs better initially, while uniform sampling achieves better long-term planning performance.
 
+### Project 13: Dyna-Q and Planning Experiments
+
+Reproduced model-based reinforcement learning experiments from Chapter 8 of Sutton and Barto’s textbook.
+Implemented Dyna-Q, Dyna-Q+, and Prioritized Sweeping algorithms for maze navigation tasks.
+Compared planning performance across agents with 0, 5, and 50 planning steps.
+Tested adaptability in dynamic environments including blocking and shortcut mazes.
+Demonstrated that Dyna-Q+ and Prioritized Sweeping achieve faster convergence and better exploration efficiency.
+
 ---
 ## Clone 
 
