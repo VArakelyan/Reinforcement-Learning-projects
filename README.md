@@ -99,6 +99,13 @@ Compared efficiency across branching factors of 2, 10, 100, and 1000.
 Measured RMS error reduction versus computational cost under equal time budgets.
 Demonstrated that sample updates yield faster and more efficient error reduction, especially in environments with large branching factors.
 
+### Project 15: Coarseness of Coarse Coding
+
+Reproduced experiments from Figure 9.8 of Sutton and Barto’s textbook using coarse coding and linear function approximation.
+Implemented gradient-descent learning to approximate a 1D square-wave function.
+Tested the effect of feature width (narrow, medium, broad) on early generalization and asymptotic performance.
+Generated plots showing the learned function at multiple stages of training.
+Demonstrated that receptive field width strongly influences early learning but has minimal impact on final solution quality.
 
 ---
 ## Clone 

@@ -472,9 +472,6 @@ def gradient_monte_carlo(value_function, step_size, states_distribution=None):
         if states_distribution is not None:
             states_distribution[state] += 1
 
-
-
-
     # endregion Body
 
 def semi_gradient_temporal_difference(value_function, steps_number, step_size):
