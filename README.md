@@ -1,7 +1,7 @@
 # Reinforcement Learning Projects
 
 This repository contains a collection of Reinforcement Learning (RL) projects developed as part of the Reinforcement Learning course at the National Polytechnic University of Armenia (NPUA).  
-Each project explores different RL algorithms and concepts, balancing theoretical insights with practical implementation.
+Each project explores different RL algorithms and concepts, balancing theoretical insights with practical implementation.  
 
 Inspired by Sutton and Barto’s *Reinforcement Learning: An Introduction*.
 
@@ -16,10 +16,7 @@ Inspired by Sutton and Barto’s *Reinforcement Learning: An Introduction*.
 
 ### Project 2: Multi-Armed Bandit Problem
 - Investigated the exploration-exploitation trade-off in the multi-armed bandit setting.
-- Implemented and compared strategies:
-  - ε-greedy algorithm  
-  - Upper Confidence Bound (UCB)  
-  - Gradient bandit algorithms
+- Implemented and compared strategies: ε-greedy algorithm, Upper Confidence Bound (UCB), Gradient bandit algorithms.
 - Analyzed the impact of optimistic vs. realistic initial values.
 
 ### Project 3: Markov Decision Process (MDP) in Grid-World
@@ -34,83 +31,77 @@ Inspired by Sutton and Barto’s *Reinforcement Learning: An Introduction*.
 
 ### Project 5: Gambler’s Problem – Value Iteration Approach
 - Simulated the Gambler’s Problem as a finite Markov Decision Process (MDP).
-- Applied the Value Iteration algorithm to compute the optimal policy.
+- Applied Value Iteration to compute the optimal policy.
 - Explored how stake sizing impacts the probability of reaching the goal.
-- Demonstrated use of the Bellman Optimality Equation.
+- Demonstrated the Bellman Optimality Equation.
 - Visualized convergence of value function and policy.
 
 ### Project 6: Blackjack — Monte Carlo Methods
-- Reproduced the episodic Blackjack example from Sutton & Barto (Chapter 5).
-- Implemented three Monte Carlo-based methods:
-  - Exploring Starts (MC-ES)  
-  - On-policy control with ε-greedy exploration  
-  - Off-policy prediction via importance sampling
+- Reproduced the episodic Blackjack example (Chapter 5).
+- Implemented three Monte Carlo-based methods: Exploring Starts (MC-ES), On-policy ε-greedy control, Off-policy evaluation via importance sampling.
 - Used empirical return averaging to estimate action-value functions.
 - Visualized optimal state-value functions and learned policies.
-- Demonstrated the practical differences between ordinary and weighted importance sampling in off-policy evaluation.
+- Demonstrated differences between ordinary and weighted importance sampling.
 
 ### Project 7: Random Walk – TD(0) Value Estimation
-- Re-created the 5-state random-walk example (Sutton & Barto, Ex. 6.2).
+- Re-created the 5-state random-walk example (Ex. 6.2).
 - Used one-step TD(0) with a constant step-size α to learn V(s).
-- Logged RMSE versus the true values; plotted learning curves.
+- Logged RMSE versus true values and plotted learning curves.
 
 ### Project 8: Windy Gridworld – ε-Greedy Sarsa
-- Solved the 7 × 10 Windy Gridworld control task (Ex. 6.5).
+- Solved the 7×10 Windy Gridworld control task (Ex. 6.5).
 - Implemented on-policy one-step Sarsa with ε-greedy exploration.
-- Supports king-moves and stochastic wind; tracks steps-per-episode.
+- Supported king-moves and stochastic wind; tracked steps-per-episode.
 
 ### Project 9: Infinite Variance – Off-Policy Monte-Carlo Evaluation
 - Replicated the infinite-variance demo (Ex. 5.5) with a 7-state walk.
-- Compared ordinary importance sampling vs. weighted IS for V(π).
-- Showed how ordinary IS blows up while weighted IS converges smoothly.
+- Compared ordinary vs. weighted importance sampling for V(π).
+- Showed that ordinary IS can diverge while weighted IS converges smoothly.
 
 ### Project 10: Cliff Walking – SARSA, Expected SARSA & Q-Learning
-- Implemented the 4 × 12 Cliff-Walking grid (Ex. 6.6).
-- Ran three TD-control algorithms (SARSA, Expected SARSA, Q-Learning).
-- Logged average return & steps per episode; visualised final greedy policies.
+- Implemented the 4×12 Cliff-Walking grid (Ex. 6.6).
+- Ran SARSA, Expected SARSA, and Q-Learning algorithms.
+- Logged average return and steps per episode.
+- Visualized final greedy policies.
 
 ### Project 11: n-step TD Methods on the Random Walk
-Implemented n-step Temporal-Difference (TD) methods for state-value prediction.
-Conducted experiments varying step-size (α) and number of steps (n) to analyze learning performance.
-Evaluated performance using Root Mean Squared (RMS) error over multiple runs and episodes.
-Replicated and validated the results presented in Figure 7.2 of the textbook.
+- Implemented n-step Temporal-Difference (TD) methods for state-value prediction.
+- Conducted experiments varying step-size (α) and number of steps (n).
+- Evaluated performance using RMS error over multiple runs and episodes.
+- Replicated results from Figure 7.2 of the textbook.
 
 ### Project 12: Comparison of Trajectory Sampling Methods
-
-Compared uniform and on-policy trajectory sampling methods in randomly generated, undiscounted episodic tasks.
-Implemented task generation with up to 10,000 states, two actions per state, and varying branching factors (b = 1, 3, 10).
-Simulated transitions with probabilistic episode termination and Gaussian-distributed rewards.
-Evaluated policy quality by the true value of the start state under the current greedy policy.
-Demonstrated that on-policy sampling performs better initially, while uniform sampling achieves better long-term planning performance.
+- Compared uniform and on-policy trajectory sampling methods in randomly generated, undiscounted episodic tasks.
+- Implemented task generation with up to 10,000 states, two actions per state, and varying branching factors (b = 1, 3, 10).
+- Simulated transitions with probabilistic episode termination and Gaussian-distributed rewards.
+- Evaluated policy quality by the true value of the start state under the current greedy policy.
+- Demonstrated that on-policy sampling is faster initially, while uniform sampling performs better long-term.
 
 ### Project 13: Dyna-Q and Planning Experiments
-
-Reproduced model-based reinforcement learning experiments from Chapter 8 of Sutton and Barto’s textbook.
-Implemented Dyna-Q, Dyna-Q+, and Prioritized Sweeping algorithms for maze navigation tasks.
-Compared planning performance across agents with 0, 5, and 50 planning steps.
-Tested adaptability in dynamic environments including blocking and shortcut mazes.
-Demonstrated that Dyna-Q+ and Prioritized Sweeping achieve faster convergence and better exploration efficiency.
+- Reproduced model-based RL experiments from Chapter 8.
+- Implemented Dyna-Q, Dyna-Q+, and Prioritized Sweeping algorithms for maze navigation tasks.
+- Compared planning performance across agents with 0, 5, and 50 planning steps.
+- Tested adaptability in dynamic environments including blocking and shortcut mazes.
+- Showed Dyna-Q+ and Prioritized Sweeping achieve faster convergence and better exploration efficiency.
 
 ### Project 14: Expected vs. Sample Updates in Planning
-
-Investigated computational trade-offs between expected and sample updates in model-based reinforcement learning.
-Implemented experiments replicating Figure 8.7 from Sutton and Barto’s textbook.
-Compared efficiency across branching factors of 2, 10, 100, and 1000.
-Measured RMS error reduction versus computational cost under equal time budgets.
-Demonstrated that sample updates yield faster and more efficient error reduction, especially in environments with large branching factors.
+- Investigated computational trade-offs between expected and sample updates in model-based RL.
+- Implemented experiments replicating Figure 8.7.
+- Compared efficiency across branching factors of 2, 10, 100, and 1000.
+- Measured RMS error reduction versus computational cost.
+- Demonstrated that sample updates yield faster and more efficient error reduction.
 
 ### Project 15: Coarseness of Coarse Coding
-
-Reproduced experiments from Figure 9.8 of Sutton and Barto’s textbook using coarse coding and linear function approximation.
-Implemented gradient-descent learning to approximate a 1D square-wave function.
-Tested the effect of feature width (narrow, medium, broad) on early generalization and asymptotic performance.
-Generated plots showing the learned function at multiple stages of training.
-Demonstrated that receptive field width strongly influences early learning but has minimal impact on final solution quality.
+- Reproduced experiments from Figure 9.8 using coarse coding and linear function approximation.
+- Implemented gradient-descent learning to approximate a 1D square-wave function.
+- Tested the effect of feature width (narrow, medium, broad) on early generalization and asymptotic performance.
+- Generated plots showing the learned function at multiple stages of training.
+- Demonstrated that receptive field width strongly influences early learning but has minimal impact on final solution quality.
 
 ---
-## Clone 
+
+## Clone
 
 ```console
 $ git clone https://github.com/VArakelyan/Reinforcement-Learning-projects.git
 $ cd Reinforcement-Learning-projects
-
