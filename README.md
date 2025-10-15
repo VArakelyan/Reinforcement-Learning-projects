@@ -98,6 +98,27 @@ Inspired by Sutton and Barto’s *Reinforcement Learning: An Introduction*.
 - Generated plots showing the learned function at multiple stages of training.
 - Demonstrated that receptive field width strongly influences early learning but has minimal impact on final solution quality.
 
+### Project 16: Function Approximation in Reinforcement Learning  
+
+Reproduces key experiments from **Chapter 9** of Sutton & Barto’s *“Reinforcement Learning: An Introduction”*, exploring **state aggregation**, **Fourier/polynomial bases**, **tile coding**, and **bootstrapping**.
+
+#### 1. State Aggregation  
+- **Task:** 1000-state random walk (rewards: -1 / +1)  
+- **Method:** 10 groups × 100 states; gradient Monte Carlo  
+- **Result:** Step-wise approximation; low error in middle, high at edges  
+
+#### 2. Polynomial vs. Fourier Basis  
+- **Method:** Polynomial vs. Fourier bases (orders 5, 10, 20)  
+- **Result:** Fourier stable and accurate; polynomial diverges at high order  
+
+#### 3. Tile Coding  
+- **Method:** 50 tilings × 200 states; gradient Monte Carlo  
+- **Result:** Fine-grained, stable approximation  
+
+#### 4. Bootstrapping  
+- **Method:** Compare Monte Carlo vs. TD(0) with state aggregation  
+- **Result:** TD(0) faster but biased; Monte Carlo slower yet more accurate  
+
 ---
 
 ## Clone

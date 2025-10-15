@@ -261,7 +261,7 @@ class BasesValueFunction:
         # Fourier Basis
         elif basis_type == basis_types["fourier"]:
             for i in range(0, order + 1):
-                self.bases.append(lambda s, i=i: np.cos(i * np.pi * s))
+                self.bases.append(lambda s, i= i : np.cos(i * np.pi * s))
 
         # endregion Body
 
