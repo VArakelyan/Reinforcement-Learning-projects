@@ -119,6 +119,16 @@ Reproduces key experiments from **Chapter 9** of Sutton & Barto’s *“Reinforc
 - **Method:** Compare Monte Carlo vs. TD(0) with state aggregation  
 - **Result:** TD(0) faster but biased; Monte Carlo slower yet more accurate  
 
+
+###  Project 17 — Mountain Car with Sarsa(λ)  
+Solves the **Mountain Car** task using **Sarsa(λ)** and **tile coding** (8 tilings).  
+The learned cost-to-go function shows how the agent learns to build momentum to reach the goal.  
+
+#### Key Insights  
+- Function approximation enables **generalization** across similar states.  
+- The choice of representation (basis, tiles, aggregation) critically impacts **learning speed, bias, and stability**.  
+- Bootstrapping introduces a **bias–variance trade-off**, balancing speed and accuracy.  
+
 ---
 
 ## Clone
