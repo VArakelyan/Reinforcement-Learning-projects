@@ -145,6 +145,18 @@ This project reproduces the classic **n-step TD** experiment from Sutton & Barto
 - Smaller n learns faster but is more biased.  
 - Larger n reduces bias but increases variance and instability for big α.  
 - Best overall 
+
+## Project 19: Off-Policy TD and Baird’s Counterexample
+This project reproduces experiments from **Chapter 11** on the instability of off-policy learning with function approximation.
+
+### Experiments
+- **Standard TD:** Diverges on Baird’s counterexample.  
+- **Gradient-TD (TDC/GTD):** Stable; PBE converges to zero.  
+- **Emphatic TD:** Also stable through emphasis weighting.
+
+### Key Insight
+The combination of off-policy learning, bootstrapping, and linear function approximation (the **Deadly Triad**) can cause divergence. Gradient-corrected and emphatic methods avoid this.
+
 ---
 
 ## Clone
