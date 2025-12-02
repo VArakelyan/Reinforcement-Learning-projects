@@ -157,6 +157,12 @@ This project reproduces experiments from **Chapter 11** on the instability of of
 ### Key Insight
 The combination of off-policy learning, bootstrapping, and linear function approximation (the **Deadly Triad**) can cause divergence. Gradient-corrected and emphatic methods avoid this.
 
+## Project 20: Access Control Queuing Task
+This project implements the Access Control Queuing Task described in Example 10.2 of Sutton and Barto's Reinforcement Learning: An Introduction. It solves a continuous, average-reward maximization problem using Differential Semi-gradient Sarsa(λ) with tile coding function approximation.
+
+
+
+
 ---
 
 ## Clone
