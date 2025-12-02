@@ -120,7 +120,7 @@ Reproduces key experiments from **Chapter 9** of Sutton & Barto’s *“Reinforc
 - **Result:** TD(0) faster but biased; Monte Carlo slower yet more accurate  
 
 
-###  Project 17 — Mountain Car with Sarsa(λ)  
+##  Project 17 — Mountain Car with Sarsa(λ)  
 Solves the **Mountain Car** task using **Sarsa(λ)** and **tile coding** (8 tilings).  
 The learned cost-to-go function shows how the agent learns to build momentum to reach the goal.  
 
@@ -129,6 +129,22 @@ The learned cost-to-go function shows how the agent learns to build momentum to 
 - The choice of representation (basis, tiles, aggregation) critically impacts **learning speed, bias, and stability**.  
 - Bootstrapping introduces a **bias–variance trade-off**, balancing speed and accuracy.  
 
+## Project 18: n-Step TD on the Random Walk
+This project reproduces the classic **n-step TD** experiment from Sutton & Barto, evaluating how different return lengths affect value prediction on the **19-state random walk**.
+
+### Task
+- A 19-state random walk with terminal rewards at each end.  
+- The goal is to estimate the value of all non-terminal states.
+
+### Method
+- Implemented **n-step TD** for multiple return lengths: *n = 1, 2, 4, 8, 16*.  
+- Evaluated performance across a range of step-sizes α.  
+- RMS error measured against true values over 10,000 episodes.
+
+### Results
+- Smaller n learns faster but is more biased.  
+- Larger n reduces bias but increases variance and instability for big α.  
+- Best overall 
 ---
 
 ## Clone
